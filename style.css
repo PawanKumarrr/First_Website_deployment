@@ -1,0 +1,81 @@
+body {
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+* {
+  font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
+}
+a {
+  /* to remove underline in anchor */
+  text-decoration: none;
+}
+a:link {
+  color: black;
+}
+a:visited {
+  color: black;
+}
+a:hover {
+  color: red;
+}
+a:active {
+  color: red;
+}
+a {
+  font-weight: bolder;
+}
+
+/* header */
+header h1 {
+  margin-left: 2rem;
+}
+nav {
+  margin-right: 1rem;
+}
+
+.parent {
+  /* border: 2px solid red; */
+  display: flex;
+  text-align: center;
+  margin-top: 2rem;
+  justify-content: space-evenly;
+}
+.child {
+  /* border: 1px solid black; */
+  width: 30%;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+ul {
+  display: flex;
+  justify-content: space-evenly;
+  width: 20rem;
+}
+ul > li {
+  width: 30%;
+  font-size: 2 rem;
+}
+.footer_parent {
+  height: 5rem;
+  background-color: black;
+  /* it is used to perfectly centre a div */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer_content {
+  color: white;
+  font-weight: 500;
+  text-align: center;
+}
+/* main image */
+
+.main-img {
+  border-radius: 3%;
+  width: 100%;
+  height: auto;
+}
